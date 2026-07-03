@@ -1,0 +1,19 @@
+{
+  "name": "lingnuan-server",
+  "version": "2.0.0",
+  "description": "聆暖时光统一后端（回忆录 + AI情感聊天 + 登录 + 社区）",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node main.js"
+  },
+  "dependencies": {
+    "async-mutex": "^0.5.0",
+    "axios": "^1.18.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "fs-extra": "^11.3.6",
+    "uuid": "^9.0.1"
+  }
+}

@@ -1,0 +1,64 @@
+/* ============================================================
+   聆暖时光 · 全局 Design Token（暖系亲和主题）
+   ============================================================
+   调性：暖系、亲和、有温度 —— 贴合老人情感陪伴定位
+   双色区分：
+   - 用户端（默认）：珊瑚暖橙  #FF8A65 → #E64A19
+   - 志愿者端（.theme-volunteer）：暖橄榄绿  #66BB6A → #2E7D32
+
+   所有页面统一用 var(--primary-color) 等变量，不再硬编码。
+   ============================================================ */
+
+/* ---------- 用户端主题（默认：珊瑚暖橙）---------- */
+page,
+body {
+  /* 主色 */
+  --primary-color: #FF8A65;        /* 珊瑚橙 */
+  --primary-color-dark: #E64A19;   /* 深橙 */
+  --primary-color-light: #FFAB91;  /* 浅橙 */
+  --primary-gradient: linear-gradient(125deg, #FF8A65 0%, #FFAB91 40%, #E64A19 100%);
+  --primary-gradient-h: linear-gradient(90deg, #FF8A65, #E64A19);
+
+  /* 功能色 */
+  --success-color: #19be6b;
+  --warning-color: #FFA000;        /* 暖琥珀色警告 */
+  --error-color: #E74C3C;          /* 统一红 */
+  --info-color: #A0A6AD;
+
+  /* 文字色 */
+  --text-primary: #2D3436;
+  --text-regular: #636E72;
+  --text-secondary: #636E72;
+  --text-placeholder: #A0A6AD;
+
+  /* 卡片（玻璃拟态，暖色调）*/
+  --card-bg: rgba(255, 255, 255, 0.7);
+  --card-bg-strong: rgba(255, 255, 255, 0.85);
+  --card-bg-light: rgba(255, 255, 255, 0.55);
+  --card-bg-solid: #FFF8F3;        /* 暖白底，微带橙调 */
+  --card-border: rgba(255, 255, 255, 0.25);
+  --card-shadow: 0 8px 32px rgba(230, 74, 25, 0.15);
+  --card-radius: 24rpx;
+
+  /* 背景灰 */
+  --bg-page: #FFF8F3;
+  --border-color: #E8E0D8;         /* 暖灰边框 */
+
+  /* 毛玻璃 */
+  --blur-normal: 10px;
+  --blur-light: 5px;
+}
+
+/* ---------- 志愿者端主题（暖橄榄绿）---------- */
+body.theme-volunteer,
+.theme-volunteer page,
+.theme-volunteer {
+  --primary-color: #66BB6A;        /* 草绿 */
+  --primary-color-dark: #2E7D32;   /* 深绿 */
+  --primary-color-light: #A5D6A7;  /* 浅绿 */
+  --primary-gradient: linear-gradient(125deg, #66BB6A 0%, #A5D6A7 40%, #2E7D32 100%);
+  --primary-gradient-h: linear-gradient(90deg, #66BB6A, #2E7D32);
+
+  --card-shadow: 0 8px 32px rgba(46, 125, 50, 0.15);
+  --card-bg-solid: #F5FBF3;       /* 暖白底，微带绿调 */
+}

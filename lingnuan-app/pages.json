@@ -1,0 +1,145 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/dialect/index",
+			"style": {
+				"navigationBarTitleText": "方言/声纹录入",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/forget-password/index",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/home/index",
+			"style": {
+				"navigationBarTitleText": "情感陪伴",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/manage/index",
+			"style": {
+				"navigationBarTitleText": "管理中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/memoir/start",
+			"style": {
+				"navigationBarTitleText": "回忆录 - 功能选择",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/memoir/chat",
+			"style": {
+				"navigationBarTitleText": "回忆录创作",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/memoir/memoirs",
+			"style": {
+				"navigationBarTitleText": "我的回忆录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/video-call",
+			"style": {
+				"navigationBarTitleText": "视频通话",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/emotion-monitor/index",
+			"style": {
+				"navigationBarTitleText": "情感监测报告",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/volunteer/index",
+			"style": {
+				"navigationBarTitleText": "志愿者",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/volunteer/call-center/index",
+			"style": {
+				"navigationBarTitleText": "通话中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/volunteer/community/index",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/volunteer/manage/index",
+			"style": {
+				"navigationBarTitleText": "管理中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/volunteer/manage/user-list",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/volunteer/manage/profile",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+		    "path": "uni_modules/TencentCloud-Call/callkit/callPage",
+		    "style": {
+		      "navigationBarTitleText": "",
+		      "navigationStyle": "custom"
+		    }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#207fdf",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			
+		]
+	}
+}
